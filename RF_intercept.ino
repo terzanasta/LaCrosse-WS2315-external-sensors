@@ -92,7 +92,6 @@ void setup() {
   Serial.println("Started.Listening to RF packet");
   pinMode(DATAPIN, INPUT);
   dataTimer = millis();
-  P = 1012.4;
   attachInterrupt(digitalPinToInterrupt(DATAPIN), PulseDecode, CHANGE);  //(recommended)
 }
 
