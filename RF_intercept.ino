@@ -1,6 +1,4 @@
-/* Intercepting, La crosse ws-23xx series, external sensors RF transmition
-   TERZIDIS TASOS
-*/
+/* Intercepting, La crosse ws-23xx series, external sensors RF transmition */
 
 #define MSG_SIZE 44
 #define BIT1_LENGTH 380
