@@ -175,7 +175,7 @@ void loop() {
       readSerial();
     xronos = millis();
   }
-  if (millis() - WUxronos > 120000) {  //send to WU every 2 minutes
+  if (millis() - WUxronos > 60000) {  //send to WU every minute
     timeClient.update();
     getPressure();
     weatherpage();  //format for WU, construct the Web Page and send to WU
