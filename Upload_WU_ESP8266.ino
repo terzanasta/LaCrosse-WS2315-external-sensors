@@ -1,7 +1,5 @@
 /*
-Receive Weather Data through serial port and upload to Weather Underground throug WiFi
-TERZIDIS TASOS
-*/
+Receive Weather Data through serial port and upload to Weather Underground throug WiFi */
 
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
