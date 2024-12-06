@@ -5,6 +5,4 @@ The only way to upload weather data to Weather Undeground from a LaCrosse WS-231
 
 Because the external sensor does not have a Pressure sensor I used a BMP280 connected to the receiving ESP8266.
 
-Instead of D1 mini you can use an Arduino (uno and others).
-
 The format of the RF signal was obtained from the work of merbanan/rtl_433
